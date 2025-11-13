@@ -910,4 +910,4 @@ async def 모드변경(ctx):
 
 
 # ─── 봇 실행 ────────────────────────────────────────────────────────────────────
-bot.run("MTM2NjM2NjA5MTY1NTUxNjI3MQ.GQeQhC.qMr4d10QF-ddkZsMoW6yXDoqWSleGJj4ibXS2s")
+bot.run(os.getenv("DISCORD_TOKEN"))
